@@ -1,0 +1,22 @@
+table name - employee
+------------------------------------
+
+ID	ENAME	DOJ	SALARY	BONUS	DEPT	DESIGNATION	MANAGER	COMPID
+1	James Potter	01-Jun-14	75000	1000	ICP	PM	NULL	1001
+2	Ethan McCarty	01-Feb-14	90000	1200	ETA	PM	NULL	NULL
+3	Emily Rayner	01-Jan-14	25000	100	ETA	SE	2	1002
+4	Jack Abraham	01-Jul-14	30000	NULL	ETA	SSE	2	NULL
+5	Ayaz Mohammad	01-Apr-14	40000	NULL	ICP	TA	1	1003
+------------------------------------
+
+select * from employee;
+select ENAME , DOJ from employee;
+select * from employee where ID = 1;
+select * from employee where ID between 1 and 4;
+select * from employee where DOJ between '01-Jan-14' and '01-Feb-14';
+select * from employee where ENAME = 'James Potter';
+select count(SALARY) from employee;
+------------------------------------
+
+
+
