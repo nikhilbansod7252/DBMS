@@ -1,4 +1,4 @@
-table name - employee
+Table name - employee
 ------------------------------------
 
 ID	ENAME	DOJ	SALARY	BONUS	DEPT	DESIGNATION	MANAGER	COMPID
